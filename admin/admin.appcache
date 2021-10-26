@@ -1,0 +1,15 @@
+CACHE MANIFEST
+# cache de recursos usando html5.
+
+CACHE:
+css/persans-webfont.eot
+css/persans-webfont.svg
+css/persans-webfont.ttf
+css/persans-webfont.woff
+../js/yepnope.1.0.1-min.js
+../min/g=css_admin
+../min/g=admin_js
+
+NETWORK:
+http://*
+https://*

@@ -1,0 +1,102 @@
+html {
+height: 100%;
+overflow-x:hidden;
+overflow-y:hidden;
+}
+body
+{
+font:76% Verdana,Tahoma,sans-serif;
+color:#000;
+}
+input {
+	border: 1px solid;
+	font:100% Verdana,Tahoma,sans-serif;
+}
+div.center span {
+	font-size:20px;	
+}
+div.center {
+margin-top:13%;
+text-align: center;
+}
+div.center div, div.center p, div.center table, div.center form {
+text-align: left; margin-left: auto; margin-right: auto;
+}
+div.center input[type=text], div.center input[type=password] {
+	width:300px;		
+	height:25px;
+	font-size:20px;
+}
+
+div.center input[type=submit] {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    width:120px;
+    height:30px;
+    font-size:20px;
+    background-image: -webkit-linear-gradient(top,#C1E68F,#95D06C);
+    background-image: -moz-linear-gradient(top,#C1E68F,#95D06C);
+    background-image: -o-linear-gradient(#C1E68F,#95D06C);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#C1E68F, endColorstr=#95D06C);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#C1E68F, endColorstr=#95D06C)";
+}
+div.center input[type=submit]:hover
+{
+    background-image: -webkit-linear-gradient(top,#99cc56,#95D06C);
+    background-image: -moz-linear-gradient(top,#99cc56,#95D06C);
+    background-image: -o-linear-gradient(#99cc56,#95D06C);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99cc56, endColorstr=#95D06C);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99cc56, endColorstr=#95D06C)";
+}
+
+#loading {
+        position:absolute;
+    	font-size:12px;
+        top:0px;
+        left: 0%;
+        width:100%;
+        background-color:#EDEDED;       
+}
+
+#troca_senha {
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+width:493px;
+height:223px;	
+border:1px solid;
+
+}
+
+.error {
+color:red;
+}
+
+label.error {
+margin-left:4em;
+}
+
+.texto
+{
+width: 8em;
+float: left;
+text-align: right;
+margin-right: 0.5em;
+margin-left:0.2em;
+display: block;
+font-size:20px;
+}
+.submit input
+{
+margin-left: 70%;
+} 
+
+input.checkbox { border: none }
+textarea { border: 1px solid; }
+select { border: 1px solid; }
+input:focus { border: 1px dotted; }
+input.error { border: 1px dotted;}
+a:link {color: #000;}
+a:visited {color: #000;}
+a:active {color: #000;}

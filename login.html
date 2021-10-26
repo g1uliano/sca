@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" manifest="login.appcache">
+    <head>
+        <meta charset=utf-8 />
+        <title> Autenticação de Usuário </title>
+        <link rel="stylesheet" href="min/?g=login_css" type="text/css" />
+        <script src="js/yepnope.1.0.1-min.js"></script>
+        <script language="javascript">
+            yepnope([
+                { load: 'min/?g=login_js' }
+            ]);                       
+        </script> 
+    </head>
+    <body>        
+        <div id="default">
+            <div class="center">
+                <span>Autenticação de Usuário</span>
+                <br /><br />
+                <div id="login">
+                    <p><label for="usuario">usuário</label><input autocomplete="off" name="usuario" type="text" value=""></p>
+                    <p><label for="senha">senha</label><input autocomplete="off" name="senha" type="password" value=""></p>
+                    <p class="submit"><input type="button" name=logar value="acessar" /></p>
+                </div>
+                <!--
+                <br />
+                Para reinicializar a senha de acesso, <a href="#recover_password">clique aqui</a>.
+                -->
+            </div>
+        </div>
+        <!--
+        <div id="another">
+            <div class="center">
+                <span>Reiniciar senha de Usuário</span>
+                <br /><br />
+
+                <div id="reset_password">
+                    <div id="into_reset">
+                        <span> Por favor, informe o endereço de e-mail que consta no seu cadastro de usuário e pressione "OK",
+                            que uma nova senha será enviada. </span>
+                    </div>
+                    <p><label for="email">e-mail</label><input autocomplete="off" name="email" type="text" value="">
+                        <input type="button" name=reset_password value="OK" /></p>
+                </div>
+                <br />
+                Para retornar a tela de login <a href="#back">clique aqui</a>.
+            </div>
+        </div>
+        -->
+    </body>
+</html>

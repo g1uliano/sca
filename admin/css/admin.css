@@ -1,0 +1,217 @@
+@font-face {
+    font-family: 'PerspectiveSansRegular';
+    src: url('persans-webfont.eot');
+    src: url('persans-webfont.eot?#iefix') format('embedded-opentype'),
+        url('persans-webfont.woff') format('woff'),
+        url('persans-webfont.ttf') format('truetype'),
+        url('persans-webfont.svg#PerspectiveSansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+    background:#F4F4F4;
+    font:76% PerspectiveSansRegular,sans-serif;
+    color:#000;
+    padding:0px;
+    margin:0px;
+}
+
+#header {
+    background:#CCC;
+    text-shadow: 0px 1px 0px #e5e5ee;
+    font-size:14px;
+    padding: 2px 10px;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+
+#simple_loaded {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color:#EDEDED;
+}
+
+
+#menu ul {
+    padding:0px;
+    margin:0px;
+    float: left;
+    width: 100%;
+    background-color:#EDEDED;
+    list-style:none;
+    font:100% PerspectiveSansRegular,sans-serif;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#menu ul li { display: inline; }
+
+#menu ul li a {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+    padding: 2px 10px;
+    float:left;
+}
+
+#menu ul li a:hover {
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid #FFF;
+}
+
+#dialog p {
+    font-size:10px;
+}
+
+#usuario_app {
+    margin-left: 0.5em;
+    width:460px;
+}
+
+#usuario_app h2 {
+    font-weight:normal;
+    margin-top:2.5em;
+    margin-left:0.3em;
+    font-size: 12px;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#usuario_app a {
+    font-size:10px;
+}
+
+#grupo_app {
+    margin-left: 0.5em;
+    width:460px;
+}
+
+#grupo_app h2 {
+    font-weight:normal;
+    margin-top:2.5em;
+    margin-left:0.3em;
+    font-size: 12px;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#grupo_app a {
+    font-size:10px;
+}
+
+#dominio_app {
+    margin-left: 0.5em;
+    width:460px;
+}
+
+#dominio_app input[type=text] {
+    width:275px;
+}
+
+#dominio_app h2 {
+    font-weight:normal;
+    margin-top:2.5em;
+    margin-left:0.3em;
+    font-size: 12px;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+
+}
+
+#dominio_app a {
+    font-size:10px;
+}
+
+#evento_app {
+    margin-left: 0.5em;
+    width:460px;
+}
+
+#evento_app input[type=text] {
+    width:275px;
+}
+
+#evento_app h2 {
+    font-weight:normal;
+    margin-top:2.5em;
+    margin-left:0.3em;
+    font-size: 12px;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+
+}
+
+#evento_app a {
+    font-size:10px;
+}
+
+#visualizar_eventos {
+    overflow-y:auto;
+    height: 430px;
+}
+input {
+    font:75% Verdana,Tahoma,sans-serif;
+}
+input[type=text] {
+    width:275px;
+    border:1px solid;
+}
+select, input[type=password] {
+    border:1px solid;
+}
+
+label
+{
+    font:13px PerspectiveSansRegular,sans-serif;
+    margin-top: 0.2em;    
+    width: 10em;
+    float: left;
+    text-align: right;
+    margin-right: 0.5em;
+    display: block;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+input[type=button],input[type=submit] {
+    float: right;
+    position: relative;
+    margin-right: 0.5em;
+    margin-bottom: 10px;
+    height: 200px;
+}
+
+input.checkbox { border: none }
+input:focus { border: 1px dotted; }
+input.error { border: 1px dotted;}
+a:link {color: #000;}
+a:visited {color: #000;}
+a:active {color: #000;}
+div[app=true] {
+    display:none;
+}
+#usr_selecionado { display:none;}
+#dialog {display:none}

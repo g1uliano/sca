@@ -1,0 +1,10 @@
+CACHE MANIFEST
+# cache de recursos usando html5.
+
+CACHE:
+min/g=login_css
+min/g=login_js
+
+NETWORK:
+http://*
+https://*
